@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\xuyue\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add no-lockfile
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\Program Files\nodejs\;C:\Users\xuyue\AppData\Local\Microsoft\WindowsApps;C:\Users\xuyue\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/no-lockfile: Not found
+      at Request.params.callback [as _callback] (C:\Users\xuyue\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
+      at Request.self.callback (C:\Users\xuyue\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (C:\Users\xuyue\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (C:\Users\xuyue\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1226:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "git-test",
+    "version": "1.0.0",
+    "description": "A test",
+    "main": "index.html",
+    "scripts": {
+      "start":"npm run lite",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lite":"lite-server"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SammyYue/git-test.git"
+    },
+    "author": "Samantha Tang",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SammyYue/git-test/issues"
+    },
+    "homepage": "https://github.com/SammyYue/git-test#readme",
+    "dependencies": {},
+    "devDependencies": {
+      "lite-server": "^2.5.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
