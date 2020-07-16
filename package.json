@@ -4,9 +4,9 @@
   "description": "A test",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "url": "https://github.com/SammyYue/git-test/issues"
   },
   "homepage": "https://github.com/SammyYue/git-test#readme",
-  "dependencies": {},
+  "dependencies": {
+    "create-react-app": "^3.4.1"
+  },
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
